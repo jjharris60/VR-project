@@ -1817,6 +1817,7 @@ GameObject:
   - component: {fileID: 275723415}
   - component: {fileID: 275723414}
   - component: {fileID: 275723418}
+  - component: {fileID: 275723419}
   m_Layer: 0
   m_Name: LeftHandRay
   m_TagString: Untagged
@@ -2343,6 +2344,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forceToggle: 0
   directInteractor: {fileID: 235308789}
+--- !u!114 &275723419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275723412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56684aba41be06468cf3931aa42d7ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 9
 --- !u!1001 &302216745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2774,6 +2790,7 @@ GameObject:
   - component: {fileID: 388918908}
   - component: {fileID: 388918907}
   - component: {fileID: 388918911}
+  - component: {fileID: 388918912}
   m_Layer: 0
   m_Name: RightHandRay
   m_TagString: Untagged
@@ -3300,6 +3317,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forceToggle: 0
   directInteractor: {fileID: 474225664}
+--- !u!114 &388918912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388918905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56684aba41be06468cf3931aa42d7ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 9
 --- !u!1 &407352737
 GameObject:
   m_ObjectHideFlags: 0
@@ -7475,7 +7507,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setting 2
+  m_text: Distance Grab
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11110,7 +11142,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1001 &1875577389
 PrefabInstance:
   m_ObjectHideFlags: 0
