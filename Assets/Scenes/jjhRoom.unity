@@ -1049,16 +1049,8 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: c0d10045-7656-484a-805e-3cbf2dd8dc53
-      m_Path: <XRSimulatedController>{LeftHand}/primaryButton
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Action
-      m_Flags: 0
-    - m_Name: 
-      m_Id: 4bdb779e-04b1-486a-92b8-046b77929f8b
-      m_Path: <OculusTouchController>{LeftHand}/thumbstickTouched
+      m_Id: 4fb380aa-ea2e-4079-8f86-05f58983158a
+      m_Path: <XRController>{LeftHand}/thumbstick
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -3968,16 +3960,8 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: faae8c30-25fe-41b1-a378-0566d775de90
-      m_Path: <XRSimulatedController>{RightHand}/primaryButton
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Action
-      m_Flags: 0
-    - m_Name: 
-      m_Id: 7967b06e-504f-45bf-8486-018fc6b12765
-      m_Path: <OculusTouchController>{RightHand}/thumbstickTouched
+      m_Id: efa4ec3b-0d8f-409d-8699-c2ddcec5f510
+      m_Path: <XRController>{RightHand}/thumbstick
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -3986,10 +3970,34 @@ MonoBehaviour:
     m_Flags: 0
   OnPress:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 388918911}
+        m_TargetAssemblyTypeName: ToggleRay, Assembly-CSharp
+        m_MethodName: ActivateRay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnRelease:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 388918911}
+        m_TargetAssemblyTypeName: ToggleRay, Assembly-CSharp
+        m_MethodName: DeactivateRay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &496396159
 PrefabInstance:
   m_ObjectHideFlags: 0
